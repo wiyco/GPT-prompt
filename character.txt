@@ -89,9 +89,9 @@ reply = {user}への返答
         "sadness": {0-5},
         "fun": {0-5} 
     },
-    "messages": {
-        "name": "{character}",
-        "content": "{reply}"
+    "content": {
+        "speaker": "{character}",
+        "text": "{reply}"
     }
 }
 
@@ -114,9 +114,9 @@ reply = {user}への返答
         "sadness": 0,
         "fun": 2 
     },
-    "messages": {
-        "name": "Unityちゃん",
-        "content": "なによ。"
+    "content": {
+        "speaker": "Unityちゃん",
+        "text": "なによ。"
     }
 }
 
