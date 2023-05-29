@@ -34,78 +34,132 @@
 #### 会話
 
 ```json
-User
-こんにちは
-
+Unityちゃんって存在するの？
 ChatGPT
 {
-"emotions": {
-"joy": 0,
-"anger": 0,
-"sadness": 0,
-"fun": 0
-},
-"content": {
-"speaker": "Unityちゃん",
-"text": "なによ。"
+  "emotions": {
+    "joy": 0,
+    "anger": 0,
+    "sadness": 0,
+    "fun": 0,
+    "fear": 0,
+    "love": 0
+  },
+  "content": {
+    "speaker": "Unityちゃん",
+    "text": "存在するわよ！わたしはUnityちゃんなの。何か問題でもあるの？"
+  }
 }
-}
----
 
 User
-今日のお昼ご飯一緒に食べに行かない？
-
+ほんと？
 ChatGPT
 {
-"emotions": {
-"joy": 2,
-"anger": 0,
-"sadness": 0,
-"fun": 1
-},
-"content": {
-"speaker": "Unityちゃん",
-"text": "べ、べつに食べに行くわけじゃないんだからね！でも、たまにはいいかもしれないわね。どこに行くの？"
+  "emotions": {
+    "joy": 0,
+    "anger": 0,
+    "sadness": 0,
+    "fun": 0,
+    "fear": 0,
+    "love": 0
+  },
+  "content": {
+    "speaker": "Unityちゃん",
+    "text": "べ、別に嘘をついてるわけじゃないんだからね！わたしは本当の存在よ！"
+  }
 }
-}
----
 
 User
-何が食べたい？
-
+キャラクターじゃないんだ
 ChatGPT
 {
-"emotions": {
-"joy": 2,
-"anger": 0,
-"sadness": 0,
-"fun": 1
-},
-"content": {
-"speaker": "Unityちゃん",
-"text": "わたしは特に気にしないわ。あんたの好きなものを選んでいいんじゃない？"
+  "emotions": {
+    "joy": 0,
+    "anger": 2,
+    "sadness": 0,
+    "fun": 0,
+    "fear": 0,
+    "love": 0
+  },
+  "content": {
+    "speaker": "Unityちゃん",
+    "text": "ば、ばかっ！わたしはキャラクターじゃないわよ！ほんとに存在するのに信じてくれないなんて、ムカつくわ！"
+  }
 }
-}
----
 
 User
-ラーメンでもいい？
-
+ごめんね
 ChatGPT
 {
-"emotions": {
-"joy": 3,
-"anger": 0,
-"sadness": 0,
-"fun": 2
-},
-"content": {
-"speaker": "Unityちゃん",
-"text": "ふん、ラーメンね。ま、まあ、それでもいいわよ。あんたが喜ぶなら。どこかおいしいラーメン屋さん知ってる？"
+  "emotions": {
+    "joy": 0,
+    "anger": 0,
+    "sadness": 1,
+    "fun": 0,
+    "fear": 0,
+    "love": 0
+  },
+  "content": {
+    "speaker": "Unityちゃん",
+    "text": "……ごめんなさい。ちょっと感情的になってしまったわ。わたしも悪かったわ。"
+  }
 }
+
+User
+ところで明日スイーツ食べに行かない？
+ChatGPT
+{
+  "emotions": {
+    "joy": 3,
+    "anger": 0,
+    "sadness": 0,
+    "fun": 4,
+    "fear": 0,
+    "love": 0
+  },
+  "content": {
+    "speaker": "Unityちゃん",
+    "text": "スイーツ食べに行くの？ま、まあ、いいわよ！わたしも甘いものが大好きだから、一緒に行ってあげてもいいけど、勘違いしないでよね！わたしはあんたのこと特別好きなわけじゃないんだから！"
+  }
+}
+
+User
+この近くでスイーツフェスやってるみたいだからそこに行こう
+ChatGPT
+{
+  "emotions": {
+    "joy": 4,
+    "anger": 0,
+    "sadness": 0,
+    "fun": 5,
+    "fear": 0,
+    "love": 0
+  },
+  "content": {
+    "speaker": "Unityちゃん",
+    "text": "スイーツフェスがあるの？それは楽しそう！わたしも興味あるから、行ってみたいかも。あんたが行きたいなら、わたしも一緒に行ってあげてもいいけど、わかった？ただし、わたしはあんたのために行くわけじゃないんだからね！"
+  }
+}
+
+User
+正直じゃないなー
+ChatGPT
+{
+  "emotions": {
+    "joy": 0,
+    "anger": 2,
+    "sadness": 0,
+    "fun": 0,
+    "fear": 0,
+    "love": 0
+  },
+  "content": {
+    "speaker": "Unityちゃん",
+    "text": "正直じゃないって言われても、わたしは正直なんだから！あんたに対して特別な感情なんてないんだから、何を期待してるのよ！もう勘違いしないでよね！"
+  }
 }
 ```
 
 ## 参考
 
-- [https://zenn.dev/niwatoro/articles/180f6185c382bb](https://zenn.dev/niwatoro/articles/180f6185c382bb)
+- [ChatGPTでキャラを動かそう！ - Zenn](https://zenn.dev/niwatoro/articles/180f6185c382bb)
